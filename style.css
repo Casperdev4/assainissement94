@@ -156,7 +156,7 @@ p {
     opacity: 1;
     transform: translateY(0);
   }
-  .icon-item1,.icon-item2,.icon-item3,.icon-item4{text-align:center;margin:5px 0;position:relative}.icon-item1 img,.icon-item2 img,.icon-item3 img,.icon-item4 img{width:100%;height:240px;margin-bottom:3%}.icon-item1 p,.icon-item2 p,.icon-item3 p,.icon-item4 p{margin-bottom:0;font-size:22px;letter-spacing:2px}
+  .icon-item1,.icon-item2,.icon-item3,.icon-item4{text-align:center;margin:5px 0;position:relative}.icon-item1 img,.icon-item2 img,.icon-item3 img,.icon-item4 img{width:80%;height:240px;margin-bottom:3%}.icon-item1 p,.icon-item2 p,.icon-item3 p,.icon-item4 p{margin-bottom:0;font-size:22px;letter-spacing:2px}
   .contenu h2,.contenu2 h2{font-size:25px;margin:15% 2% 4%}.contenu img{display:flex;width:30%;margin-left:auto;margin-right:auto;margin-top:15%}.contenu2 img{display:flex;width:90%;margin:10% auto 8%}.contenu h3{margin-top:5%;margin-bottom:7%}.contenu p,.contenu2 p{text-align:left}
   .bouton-devis1{padding:2% 8%;border-radius:25px;text-decoration:none;margin-top:auto;margin-bottom:10%}.bouton-devis1 ion-icon{font-size:20px}
   .bouton-devis2 {
