@@ -146,23 +146,20 @@ p {
     justify-content: center;
     margin-top: 15%;
 }
-
-.container img {
+  .container img {
     display: block;
     width: 80%;
     height: auto;
 }
-
-.title-wrapper {
+  .title-wrapper {
     position: absolute;
     bottom: 1%;
     right: 10%;
     padding: 5%;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
-}
-
-.title {
+} 
+  .title {
     font-size: 20px;
     font-weight: bold;
 }
