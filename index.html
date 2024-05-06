@@ -63,7 +63,8 @@
                 fluidité de vos canalisations.</h3>
             <a class="bouton-devis3" href="tel:0658444271">CONTACTEZ - NOUS</a>
         </div>
-        <div class="icon-item2"><img src="curage-assainissement.webp" alt="nettoyage-canalisation" loading="lazy" decoding="async">
+        <div class="icon-item2"><img src="curage-assainissement.webp" alt="nettoyage-canalisation" loading="lazy"
+                decoding="async">
             <p><strong class="strong-color">CURAGE</strong></p>
             <h3>Offrez à vos canalisations un nettoyage en profondeur grâce à notre service de curage. Dotés
                 d'une expertise technique pointue, nous nous engageons à éliminer
@@ -71,7 +72,8 @@
                 vos canalisations permet de prévenir les obstructions et les dysfonctionnements.</h3>
             <a class="bouton-devis3" href="tel:0658444271">CONTACTEZ - NOUS</a>
         </div>
-        <div class="icon-item3"><img src="camera-inspection.webp" alt="camera-canalisation" loading="lazy" decoding="async">
+        <div class="icon-item3"><img src="camera-inspection.webp" alt="camera-canalisation" loading="lazy"
+                decoding="async">
             <p><strong class="strong-color">INSPECTION CAMÉRA</strong></p>
             <h3>Plongez dans une perspective inédite de vos installations grâce à notre service de camera pour
                 canalisation.
@@ -255,7 +257,8 @@
     <div class="contenu">
         <h2>L’ENTREPRISE D’ASSAINISSEMENT QUI VOUS SIMPLIFIE LA VIE</h2>
         <p>
-            Aqua'serv assainissement 94, expert de l'assainissement dans le Val-de-Marne depuis plus de deux décennies, intervient tant auprès des
+            Aqua'serv assainissement 94, expert de l'assainissement dans le Val-de-Marne depuis plus de deux décennies,
+            intervient tant auprès des
             particuliers que des professionnels pour résoudre les urgences. Que ce soit des
             canalisations obstruées, des équipements sanitaires défaillants, ou des odeurs désagréables, les situations
             peuvent varier, mais notre réactivité demeure constante.
@@ -268,7 +271,8 @@
             et filtre à sable, est une garantie de notre expertise.
         </p>
         <p>
-            <strong>Aqua'serv assainissement 94 assure une disponibilité totale, 24h/24 et 7j/7, weekends et jours fériés inclus.</strong>
+            <strong>Aqua'serv assainissement 94 assure une disponibilité totale, 24h/24 et 7j/7, weekends et jours
+                fériés inclus.</strong>
             En plus des
             interventions d'urgence, notre entreprise peut effectuer le remplacement des tuyaux, la rénovation des
             équipements et égouts, l'adaptation du réseau d'égouts, le nettoyage et l'entretien des collecteurs, ainsi
@@ -334,7 +338,7 @@
                     name="logo-facebook"></ion-icon> Facebook</a>
         </div>
         <h5>CONTACTEZ - NOUS</h5>
-        <p class="liens">Tel : <a href="tel:0169520023" target="_blank"> 01 69 52 00 23</a></p>
+        <p class="liens">Tel : <a href="tel:0658444271" target="_blank"> 06 58 44 42 71</a></p>
         <p class="liens">E-mail : <a href="mailto:contact.aquaserv@gmail.com"
                 target="_blank">contact.aquaserv@gmail.com</a></p>
         <div class="liens-wp">
@@ -415,6 +419,36 @@
                 observer.observe(element);
             });
         });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Sélectionner tous les liens de téléphone par leur classe ou balise parente
+            var telephoneLinks = document.querySelectorAll('a[href^="tel:"]');
+
+            // Vérifier s'il y a des liens de téléphone à suivre
+            if (telephoneLinks.length > 0) {
+                // Récupérer le nombre de clics depuis localStorage ou initialiser à zéro
+                var nombreClics = localStorage.getItem('nombreClics') || 0;
+
+                // Mise à jour de l'affichage initial du nombre de clics
+                console.log('Nombre de clics actuel : ' + nombreClics);
+
+                // Ajouter un gestionnaire d'événements clic à chaque lien de téléphone
+                telephoneLinks.forEach(function (link) {
+                    link.addEventListener('click', function () {
+                        // Incrémenter le nombre de clics
+                        nombreClics++;
+                        localStorage.setItem('nombreClics', nombreClics); // Enregistrer dans localStorage
+
+                        // Afficher le nombre de clics dans la console
+                        console.log('Clic sur un lien de téléphone ! Nouveau nombre de clics : ' + nombreClics);
+
+                        // Autres actions si nécessaires (envoi à un service d'analyse, etc.)
+                    });
+                });
+            }
+        });
+
     </script>
 </body>
 
