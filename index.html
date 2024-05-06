@@ -422,33 +422,19 @@
     </script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            // Sélectionner tous les liens de téléphone par leur classe ou balise parente
             var telephoneLinks = document.querySelectorAll('a[href^="tel:"]');
-
-            // Vérifier s'il y a des liens de téléphone à suivre
             if (telephoneLinks.length > 0) {
-                // Récupérer le nombre de clics depuis localStorage ou initialiser à zéro
                 var nombreClics = localStorage.getItem('nombreClics') || 0;
-
-                // Mise à jour de l'affichage initial du nombre de clics
                 console.log('Nombre de clics actuel : ' + nombreClics);
-
-                // Ajouter un gestionnaire d'événements clic à chaque lien de téléphone
                 telephoneLinks.forEach(function (link) {
                     link.addEventListener('click', function () {
-                        // Incrémenter le nombre de clics
                         nombreClics++;
-                        localStorage.setItem('nombreClics', nombreClics); // Enregistrer dans localStorage
-
-                        // Afficher le nombre de clics dans la console
+                        localStorage.setItem('nombreClics', nombreClics);
                         console.log('Clic sur un lien de téléphone ! Nouveau nombre de clics : ' + nombreClics);
-
-                        // Autres actions si nécessaires (envoi à un service d'analyse, etc.)
                     });
                 });
             }
         });
-
     </script>
 </body>
 

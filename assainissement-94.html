@@ -12,8 +12,7 @@
     <link href="style.css" rel="stylesheet">
     <title>Aqua'serv assainissement 94 - Spécialistes en Assainissement dans le Val-de-Marne</title>
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
-    <link rel="apple-touch-icon" type="image/png" sizes="96x96"
-        href="./logo/apple-icon-96x96.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="96x96" href="./logo/apple-icon-96x96.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./logo/android-icon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="./logo/android-icon-96x96.png">
     <meta name="msapplication-TileColor" content="#ffffff">
@@ -57,7 +56,8 @@
     <div class="histoire">
         <h4>Votre partenaire assainissement</h4>
         <p>Que ce soit pour un dégorgement, un entretien ou encore une vidange de vos canalisations, toute l’équipe
-            d’Aqua'serv assainissement 94 se tient à votre disposition pour intervenir dans tout l’Île-de-France. Intervention d’urgence ou
+            d’Aqua'serv assainissement 94 se tient à votre disposition pour intervenir dans tout l’Île-de-France.
+            Intervention d’urgence ou
             contrat d’entretien annuel ; choisissez la formule la plus adaptée à vos besoins et confiez la longévité de
             votre installation et de votre matériel à nos équipes de professionnels. Grâce à des outils et des matériaux
             adaptés, Aqua'serv assainissement 94 vous garantit un service de qualité.
@@ -143,17 +143,18 @@
         <img src="specialistes-assainissement.webp" alt="specialistes-assainissement" loading="lazy" decoding="async">
     </div>
     <div class="realisation">
-        <img src="techniciens-assainissement.webp" alt="entreprise-de-debouchage-de-canalisation" loading="lazy" decoding="async">
+        <img src="techniciens-assainissement.webp" alt="entreprise-de-debouchage-de-canalisation" loading="lazy"
+            decoding="async">
     </div>
     <div class="realisation">
         <img src="agents-assainissement.webp" alt="entreprise-assainissement" loading="lazy" decoding="async">
     </div>
     <div class="realisation">
-        <img src="techniciens-traitement-des-eaux.webp" alt="assainissement-entreprise" loading="lazy"
-            decoding="async">
+        <img src="techniciens-traitement-des-eaux.webp" alt="assainissement-entreprise" loading="lazy" decoding="async">
     </div>
     <div class="realisation">
-        <img src="specialistes-assainissement.webp" alt="entreprise-debouchage-canalisation" loading="lazy" decoding="async">
+        <img src="specialistes-assainissement.webp" alt="entreprise-debouchage-canalisation" loading="lazy"
+            decoding="async">
     </div>
     <a class="bouton-devis3" href="tel:0658444271">APPELEZ - NOUS</a>
     <div id="contact">
@@ -261,6 +262,22 @@
             elements.forEach(element => {
                 observer.observe(element);
             });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var telephoneLinks = document.querySelectorAll('a[href^="tel:"]');
+            if (telephoneLinks.length > 0) {
+                var nombreClics = localStorage.getItem('nombreClics') || 0;
+                console.log('Nombre de clics actuel : ' + nombreClics);
+                telephoneLinks.forEach(function (link) {
+                    link.addEventListener('click', function () {
+                        nombreClics++;
+                        localStorage.setItem('nombreClics', nombreClics);
+                        console.log('Clic sur un lien de téléphone ! Nouveau nombre de clics : ' + nombreClics);
+                    });
+                });
+            }
         });
     </script>
 </body>
