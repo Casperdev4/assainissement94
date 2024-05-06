@@ -39,6 +39,52 @@
         <image:title>pompe-de-relevage</image:title>
     </image:image>
     <image:image>
+        <image:loc>https://assainissement94.fr/note.webp</image:loc>
+        <image:caption>Découvrez-nos-contrats-annuels-d'assainissement-pour-une-tranquillité-d'esprit-tout-au-long-de-l'année.</image:caption>
+        <image:title>contrat-entretien-fosse-septique</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://assainissement94.fr/ile-de-france.png</image:loc>
+        <image:caption>Découvrez-notre-couverture-étendue-à-Paris-avec-des-services-d'assainissement-fiables-et-de-qualité.</image:caption>
+        <image:title>assainissement-94</image:title>
+    </image:image>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Val-de-Marne</geo:placename>
+</url>
+
+<url>
+<loc>https://assainissement94.fr/assainissement94.html</loc>
+    <image:image>
+        <image:loc>https://assainissement77.fr/camion-assainissement.webp</image:loc>
+        <image:caption>Découvrez-nos-services-assainissement-pour-des-solutions-rapides-et-efficaces.</image:caption>
+        <image:title>camions-hydrocureurs</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://assainissement77.fr/camion2.jpg</image:loc>
+        <image:caption>Nos-camions-de-pompage-pour-des-solutions-efficaces-et-adaptees-a-vos-besoins-d-assainissement.</image:caption>
+        <image:title>camion-pompage</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://assainissement77.fr/camion-pompage.webp</image:loc>
+        <image:caption>Nos-camions-de-pompage-pour-des-solutions-efficaces-et-adaptees-a-vos-besoins-d-assainissement.</image:caption>
+        <image:title>camion-assainissement</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://assainissement77.fr/poid-lourd.webp</image:loc>
+        <image:caption>Découvrez-nos-services-d-assainissement-avec-notre-flotte-de-poids-lourds-garantissant-une-intervention-rapide-et-fiable.</image:caption>
+        <image:title>camion-pompage-poids-lourd</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://assainissement77.fr/camion-curage.webp</image:loc>
+        <image:caption>Explorez-nos-services-de-curage-avec-nos-camions-specialises-assurant-un-assainissement-complet-et-efficace.</image:caption>
+        <image:title>camions-hydrocureurs</image:title>
+    </image:image>
+    <image:image>
+        <image:loc>https://assainissement77.fr/camion-debouchage.webp</image:loc>
+        <image:caption>Optez-pour-nos-services-de-debouchage-avec-nos-camions-specialises-garantissant-des-solutions-rapides-et-durables.</image:caption>
+        <image:title>entreprise-de-debouchage-de-canalisation</image:title>
+    </image:image>
+    <image:image>
         <image:loc>https://assainissement94.fr/restaurant.webp</image:loc>
         <image:caption>Assurez-vous-de-la-propreté-avec-nos-services-assainissement-pour-les-restaurants-et-établissements-alimentaires.</image:caption>
         <image:title>urgence-assainissement</image:title>
@@ -84,93 +130,6 @@
         <image:title>bacs-a-graisse</image:title>
     </image:image>
     <image:image>
-        <image:loc>https://assainissement94.fr/note.webp</image:loc>
-        <image:caption>Découvrez-nos-contrats-annuels-d'assainissement-pour-une-tranquillité-d'esprit-tout-au-long-de-l'année.</image:caption>
-        <image:title>contrat-entretien-fosse-septique</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement94.fr/ile-de-france.png</image:loc>
-        <image:caption>Découvrez-notre-couverture-étendue-à-Paris-avec-des-services-d'assainissement-fiables-et-de-qualité.</image:caption>
-        <image:title>assainissement-94</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement94.fr/dumez.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-assainissement-ont-contribué-à-la-satisfaction-de-Dumez-l'un-de-nos-clients-partenaires.</image:caption>
-        <image:title>debouchage-canalisation</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement94.fr/"otacos.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-assainissement-ont-contribué-à-la-satisfaction-de-notre-client-Otacos.</image:caption>
-        <image:title>nettoyage-canalisation</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement94.fr/sodexo.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-d'assainissement-ont-contribué-à-la-satisfaction-de-Sodexo,-l'un-de-nos-partenaires-privilégiés.</image:caption>
-        <image:title>camera-canalisation</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement94.fr/sergic.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-d'assainissement-ont-contribué-à-la-satisfaction-de-Sergic,-l'un-de-nos-partenaires-de-confiance.</image:caption>
-        <image:title>vidange-fosse-septique</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement94.fr/etf.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-d'assainissement-ont-contribué-à-la-satisfaction-d'ETF,-l'un-de-nos-partenaires-privilégiés.</image:caption>
-        <image:title>entreprise-debouchage-canalisation</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement94.fr/vinci.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-d'assainissement-ont-contribué-à-la-satisfaction-de-Vinci,-l'un-de-nos-partenaires-majeurs.</image:caption>
-        <image:title>pompe-de-relevage</image:title>
-        </image:image>
-    <image:image>
-        <image:loc>https://assainissement94.fr/spie-batignolles.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-d'assainissement-ont-contribué-à-la-satisfaction-de-SPIE-Batignolles,-l'un-de-nos-partenaires-de-longue-date.</image:caption>
-        <image:title>entreprise-debouchage-canalisation</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement94.fr/nexity.webp</image:loc>
-        <image:caption>Découvrez-comment-nos-services-d'assainissement-ont-contribué-à-la-satisfaction-de-Nexity,-l'un-de-nos-partenaires-immobiliers.</image:caption>
-        <image:title>entreprise-debouchage-canalisation</image:title>
-    </image:image>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Val-de-Marne</geo:placename>
-    <geo:position>48.7833;2.4667</geo:position>
-</url>
-
-<url>
-<loc>https://assainissement94.fr/assainissement94.html</loc>
-    <image:image>
-        <image:loc>https://assainissement77.fr/camion-assainissement.webp</image:loc>
-        <image:caption>Découvrez-nos-services-assainissement-pour-des-solutions-rapides-et-efficaces.</image:caption>
-        <image:title>camions-hydrocureurs</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/camion2.jpg</image:loc>
-        <image:caption>Nos-camions-de-pompage-pour-des-solutions-efficaces-et-adaptees-a-vos-besoins-d-assainissement.</image:caption>
-        <image:title>camion-pompage</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/camion-pompage.webp</image:loc>
-        <image:caption>Nos-camions-de-pompage-pour-des-solutions-efficaces-et-adaptees-a-vos-besoins-d-assainissement.</image:caption>
-        <image:title>camion-assainissement</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/poid-lourd.webp</image:loc>
-        <image:caption>Découvrez-nos-services-d-assainissement-avec-notre-flotte-de-poids-lourds-garantissant-une-intervention-rapide-et-fiable.</image:caption>
-        <image:title>camion-pompage-poids-lourd</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/camion-curage.webp</image:loc>
-        <image:caption>Explorez-nos-services-de-curage-avec-nos-camions-specialises-assurant-un-assainissement-complet-et-efficace.</image:caption>
-        <image:title>camions-hydrocureurs</image:title>
-    </image:image>
-    <image:image>
-        <image:loc>https://assainissement77.fr/camion-debouchage.webp</image:loc>
-        <image:caption>Optez-pour-nos-services-de-debouchage-avec-nos-camions-specialises-garantissant-des-solutions-rapides-et-durables.</image:caption>
-        <image:title>entreprise-de-debouchage-de-canalisation</image:title>
-    </image:image>
-    <image:image>
         <image:loc>https://assainissement77.fr/techniciens-assainissement.webp</image:loc>
         <image:caption>Des-solutions-efficaces-avec-nos-techniciens-specialises-en-assainissement-a-Paris.</image:caption>
         <image:title>entreprise-assainissement</image:title>
@@ -192,7 +151,6 @@
     </image:image>
     <geo:region>Ile-de-France</geo:region>
     <geo:placename>Val-de-Marne</geo:placename>
-    <geo:position>48.7833;2.4667</geo:position>
 </url>
 
 </urlset>
