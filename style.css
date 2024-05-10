@@ -47,7 +47,7 @@ p{color:#000;font-size:18px;margin-left:5%;margin-right:5%;text-align:center;pad
 .realisation-pc img{width:20%;height:auto}
 .contenu img{display:flex;justify-content:center;width:15%;height:auto;margin:7% auto 5%}
 .contenu h3{font-size:22px;margin-bottom:3%}
-.contenu2 img{display:flex;justify-content:center;width:60%;height:auto;margin:7% auto 5%}
+.contenu2 img{display:flex;justify-content:center;width:50%;height:auto;margin:7% auto 5%}
 #contact{margin-top:10%;padding:2%;background-color:#01002c}
 #contact h5{text-align:center;margin:5% 3% 3%;color:#fff;font-weight:600;font-size:20px}
 #contact p{color:#fff}
@@ -121,7 +121,7 @@ p{color:#000;font-size:18px;margin-left:5%;margin-right:5%;text-align:center;pad
   .icon-item1 p,.icon-item2 p,.icon-item3 p,.icon-item4 p{margin-bottom:0;font-size:22px;letter-spacing:2px}
   .contenu h2,.contenu2 h2{font-size:25px;margin:15% 2% 4%}
   .contenu img{display:flex;width:30%;margin-left:auto;margin-right:auto;margin-top:15%}
-  .contenu2 img{display:flex;width:90%;margin:10% auto 8%}
+  .contenu2 img{display:flex;width:80%;margin:10% auto 8%}
   .contenu h3{margin-top:5%;margin-bottom:7%}
   .contenu p,.contenu2 p{text-align:left}
   .bouton-devis1{padding:2% 8%;border-radius:25px;text-decoration:none;margin-top:auto;margin-bottom:10%}
