@@ -231,22 +231,6 @@
             });
         });
     </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var telephoneLinks = document.querySelectorAll('a[href^="tel:"]');
-            if (telephoneLinks.length > 0) {
-                var nombreClics = localStorage.getItem('nombreClics') || 0;
-                console.log('Nombre de clics actuel : ' + nombreClics);
-                telephoneLinks.forEach(function (link) {
-                    link.addEventListener('click', function () {
-                        nombreClics++;
-                        localStorage.setItem('nombreClics', nombreClics);
-                        console.log('Clic sur un lien de t ! Nouveau nombre de clics : ' + nombreClics);
-                    });
-                });
-            }
-        });
-    </script>
 </body>
 
 </html>
