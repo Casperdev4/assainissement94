@@ -88,6 +88,7 @@ p{color:#01002c;font-size:18px;margin-left:5%;margin-right:5%;text-align:center;
   .form-container h2{font-size:18px;margin-top:2%;margin-bottom:6%}
   body{margin-top:17%}
   .index-container{background-color:#cbcbcb;padding-top:1px;padding-bottom:20%}
+  .index-container a{color: #000000;}
   .container{position:relative;width:100%;display:flex;justify-content:center;margin-top:18%}
   .container img{display:block;width:80%;height:auto}
   .title-wrapper{position:absolute;top:80%;right:6%;padding:5%;background-color:rgba(255,255,255);border-radius:10px}
