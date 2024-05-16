@@ -44,34 +44,12 @@ p{color:#01002c;font-size:18px;margin-left:5%;margin-right:5%;text-align:center;
 .icon-item1 img,.icon-item2 img,.icon-item3 img,.icon-item4 img{width:60%;height:auto}
 .icon-item1 p,.icon-item2 p,.icon-item3 p,.icon-item4 p{margin:5px 0 0;padding:8px;font-size:22px}
 .icon-anime-pc h3.slide-up,.bouton-devis3.slide-up{opacity:1;transform:translateY(0)}
-.container-index {
-  display: flex;
-  align-items: center;
-  margin-top: 7%;
-  margin-bottom: 7%;
-}
-.container-index .text {
-  text-align: center;
-}
-.image {
-  width: 40%;
-  margin-left: 5%;
-  height: auto;
-}
-.container-index2 {
-  display: flex;
-  align-items: center;
-  margin-top: 7%;
-  margin-bottom: 7%;
-}
-.image2 {
-  width: 40%;
-  height: auto;
-  margin-right: 5%;
-}
-.container-index2 .text2 {
-  text-align: center;
-}
+.container-index{display:flex;align-items:center;margin-top:7%;margin-bottom:7%}
+.container-index .text{text-align:center}
+.image{width:40%;margin-left:5%;height:auto}
+.container-index2{display:flex;align-items:center;margin-top:7%;margin-bottom:7%}
+.image2{width:40%;height:auto;margin-right:5%}
+.container-index2 .text2{text-align:center}
 .realisation-pc{display:flex;justify-content:center;margin-top:5%;margin-bottom:7%;gap:5%}
 .realisation-pc img{width:20%;height:auto}
 .contenu img{display:flex;justify-content:center;width:15%;height:auto;margin:7% auto 5%}
