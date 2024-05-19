@@ -45,7 +45,6 @@ p{color:#01002c;font-size:18px;margin-left:5%;margin-right:5%;text-align:center;
   justify-content: center;
   height: 650px;
 }
-
 .background-image {
   position: absolute;
   top: 0;
@@ -55,14 +54,12 @@ p{color:#01002c;font-size:18px;margin-left:5%;margin-right:5%;text-align:center;
   object-fit: cover;
   z-index: -1;
 }
-
 .image-index h1 {
   color: #01002c;
   width: 80%;
   margin-top: auto;
   z-index: 1;
 }
-
 .icon-anime{display:flex;justify-content:space-between;align-items:center;margin-top:5%}
 .icon-anime-pc h3{opacity:0;transform:translateY(50px);transition:opacity .5s,transform .5s}
 .icon-item1,.icon-item2,.icon-item3,.icon-item4{text-align:center;margin-top:5%;margin-bottom:15%}
