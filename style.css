@@ -9,8 +9,9 @@ h4{margin:5% 3%;font-size:20px;font-weight:350}
 .hr{margin:5% auto auto;width:90%}
 hr {width: 20%;margin-left: auto;margin-right: auto;height: 6px;background: #297fb8;border-radius: 15px;}
 p{color:#01002c;font-size:19px;margin-left:5%;margin-right:5%;text-align:center;padding:2%;line-height:1.7;word-spacing:5px}
-.form-container h2{font-size:22px;margin-top:3%;margin-bottom:3%}
 .strong-color{color:#01002c}
+.form-container h2{font-size:22px;margin-top:3%;margin-bottom:3%}
+.form-container{display:flex;flex-direction:column;align-items:center;margin:5% auto;width:50%;background:linear-gradient(to bottom,#297fb8,#dfe4ea);padding:20px;box-shadow:0 0 10px rgba(0,0,0,.1);color:#fff;border-radius:20px}.image-container{display:flex;justify-content:center;align-items:center;background-color:#fff;padding:1%;margin-left:37%;margin-right:37%;margin-bottom:20px;border-radius:20px}.image-container img{width:100%;height:auto;border-radius:20px}.form-container label{display:block;margin-bottom:8px;font-size:20px}.form-container input,.form-container select{width:100%;height:35px;padding:8px 230px 8px 8px;margin-bottom:16px;box-sizing:border-box;border-radius:10px;border:1px solid #333;background-color:#f2f2f2;color:#000}.form-container button{display:flex;justify-content:center;background-color:#01002c;color:#fff;padding:10px 80px;font-size:18px;margin:3% auto 2%;border:none;border-radius:4px;cursor:pointer}.form-container textarea{width:100%;padding:8px;margin-bottom:3%;box-sizing:border-box;border-radius:10px;border:1px solid #333;background-color:#f2f2f2;color:#000;resize:vertical}
 .histoire{background-color:#01002c;padding:2% 0;width:100%;margin:10% auto}
 .histoire h4,.histoire p{color:#fff}
 #tarif{background-color:#01002c;padding:2%;width:100%;margin:10% auto}
@@ -61,12 +62,6 @@ p{color:#01002c;font-size:19px;margin-left:5%;margin-right:5%;text-align:center;
   margin-top: auto;
   z-index: 1;
 }
-.icon-anime{display:flex;justify-content:space-between;align-items:center;margin-top:5%}
-.icon-anime-pc h3{opacity:0;transform:translateY(50px);transition:opacity .5s,transform .5s}
-.icon-item1,.icon-item2,.icon-item3,.icon-item4{text-align:center;margin-top:5%;margin-bottom:15%}
-.icon-item1 img,.icon-item2 img,.icon-item3 img,.icon-item4 img{width:60%;height:auto}
-.icon-item1 p,.icon-item2 p,.icon-item3 p,.icon-item4 p{margin:5px 0 0;padding:8px;font-size:22px}
-.icon-anime-pc h3.slide-up,.bouton-devis3.slide-up{opacity:1;transform:translateY(0)}
 .container-index{display:flex;align-items:center;margin-top:7%;margin-bottom:7%}
 .container-index .text{text-align:center}
 .image{width:40%;margin-left:5%;height:auto}
@@ -92,17 +87,13 @@ p{color:#01002c;font-size:19px;margin-left:5%;margin-right:5%;text-align:center;
 .bouton-devis4{display:flex;justify-content:center;background-color:#01002c;color:#fff;font-size:22px;padding:1%;text-decoration:none;border-radius:25px;margin:2% 25%}
 .bouton-devis4:hover, .bouton-devis3:hover{background-color:#ffa929}
 .bouton-devis1:hover,.form-container button:hover{background-color:#ffa929}
-.form-container{display:flex;flex-direction:column;align-items:center;margin:5% auto;width:90%;background:linear-gradient(to bottom,#650a0a,#5a5858);padding:20px;box-shadow:0 0 10px rgba(0,0,0,.1);color:#fff}
 .image-container{display:flex;justify-content:center;align-items:center;background-color:#fff;padding:1%;margin-left:37%;margin-right:37%;margin-bottom:20px;border-radius:20px}
 .image-container img{width:100%;height:auto;border-radius:20px}
-.form-container label{display:block;margin-bottom:8px;font-size:20px}
-.form-container input,.form-container select{width:100%;height:35px;padding:8px 550px 8px 8px;margin-bottom:16px;box-sizing:border-box;border-radius:10px;border:1px solid #333;background-color:#f2f2f2;color:#000}
-.form-container button{display:flex;justify-content:center;background-color:#01002c;color:#fff;padding:10px 150px;font-size:18px;margin:3% auto 2%;border:none;border-radius:4px;cursor:pointer}
 .reseau-contact{text-align:center;margin-bottom:7%}
 .reseau-contact a{font-size:13px;color:#fff}
 .reseau-contact ion-icon{font-size:18px}
 .liens-wp a,.liens-wp h6{font-size:13px;color:#fff;text-align:center;font-weight:300;margin-top:3%}
-.contact-icon,.icon-anime,.realisation, .container, .bouton-devis4,.icon-anime-pc{display:none}
+.contact-icon,.realisation, .container, .bouton-devis4,.form-container{display:none}
 
 /*  Small device */
 @media screen and (max-width:767.98px) {
@@ -116,7 +107,6 @@ p{color:#01002c;font-size:19px;margin-left:5%;margin-right:5%;text-align:center;
   hr {width: 40%;margin-bottom: 2%;}
   p{font-size:19px;margin-left:5%;margin-right:5%;padding:2%}
   #tarif p,.histoire p,.valeur p{color:#fff;font-size:17px}
-  .form-container h2{font-size:18px;margin-top:2%;margin-bottom:6%}
   body{margin-top:17%}
   .index-container{background-color:#cbcbcb;padding-top:1px;padding-bottom:20%}
   .index-container a{color: #000000;}
@@ -147,12 +137,6 @@ p{color:#01002c;font-size:19px;margin-left:5%;margin-right:5%;text-align:center;
   .valeur h4,.valeur p{color:#fff;text-align:left;margin-top:3%}
   .valeur h4{font-size:15px;margin-bottom:0}
   .valeur p{margin-left:0;font-size:14px;padding-bottom:5%;font-weight:100}
-  .icon-anime{display:flex;flex-direction:column;align-items:center}
-  .icon-anime h3{opacity:0;transform:translateY(50px);transition:opacity .5s,transform .5s;margin-top:3%}
-  .icon-anime h3.slide-up,.bouton-devis3.slide-up{opacity:1;transform:translateY(0)}
-  .icon-item1,.icon-item2,.icon-item3,.icon-item4{text-align:center;margin:5px 0;position:relative}
-  .icon-item1 img,.icon-item2 img,.icon-item3 img,.icon-item4 img{width:100%;height:240px;margin-bottom:3%}
-  .icon-item1 p,.icon-item2 p,.icon-item3 p,.icon-item4 p{margin-bottom:0;font-size:22px;letter-spacing:2px}
   .contenu h2,.contenu2 h2{font-size:25px;margin:15% 2% 4%}
   .contenu img{display:flex;width:30%;margin-left:auto;margin-right:auto;margin-top:15%}
   .contenu2 img{display:flex;width:90%;margin:8% auto 4%}
@@ -173,15 +157,12 @@ p{color:#01002c;font-size:19px;margin-left:5%;margin-right:5%;text-align:center;
   .contact-icon{display:flex;position:fixed;padding:1% 2%;right:4%;bottom:5%;border-radius:20px;background-color:#01002c}
   .contact-icon a{font-size:18px;font-weight:500;color:#fff;text-decoration:none}
   .liens-wp a,.liens-wp h6{font-size:13px;color:#fff;text-align:center;font-weight:300;margin-top:5%}
-  .form-container{display:flex;flex-direction:column;align-items:center;margin:5% auto;width:90%;padding:20px;box-shadow:0 0 10px rgba(0,0,0,.1);color:#fff}
+  .form-container h2{font-size:18px;margin-top:2%;margin-bottom:6%}
+  .form-container{display:flex;flex-direction:column;align-items:center;margin:5% auto;width:90%;padding:20px;box-shadow:0 0 10px rgba(0,0,0,.1);color:#fff}.image-container{background-color:#fff;padding:1%;margin-left:25%;margin-right:25%;margin-bottom:20px;border-radius:20px}.image-container img{width:100%;height:auto;border-radius:20px}.form-container label{display:block;margin-bottom:8px;margin-left:2%;font-size:20px}.form-container input,.form-container select{width:300px;height:35px;padding:8px;margin-bottom:16px;box-sizing:border-box}.form-container button{display:flex;justify-content:center;padding:10px 40px;font-size:18px;margin:3% auto 2%;border:none;border-radius:4px;cursor:pointer}.form-container button:hover{background-color:#ffa929}
   .image-container{background-color:#fff;padding:1%;margin-left:25%;margin-right:25%;margin-bottom:20px;border-radius:20px}
   .image-container img{width:100%;height:auto;border-radius:20px}
-  .form-container label{display:block;margin-bottom:8px;font-size:20px}
-  .form-container input,.form-container select{width:100%;height:35px;padding:8px 100px 8px 8px;margin-bottom:16px;box-sizing:border-box}
-  .form-container button{display:flex;justify-content:center;padding:10px 40px;font-size:18px;margin:3% auto 2%;border:none;border-radius:4px;cursor:pointer}
-  .form-container button:hover{background-color:#ffa929}
   .reseau-contact{text-align:center;margin-bottom:13%}
   .reseau-contact a{font-size:13px;color:#fff}
   .reseau-contact ion-icon{font-size:16px}
-  .icon-anime, .icon-anime-pc,.realisation-pc,.container-index,.container-index2{display:none}
+  .form-container,.realisation-pc,.container-index,.container-index2{display:none}
 }
