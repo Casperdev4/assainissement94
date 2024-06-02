@@ -93,7 +93,7 @@ p{color:#01002c;font-size:19px;margin-left:5%;margin-right:5%;text-align:center;
 .reseau-contact a{font-size:13px;color:#fff}
 .reseau-contact ion-icon{font-size:18px}
 .liens-wp a,.liens-wp h6{font-size:13px;color:#fff;text-align:center;font-weight:300;margin-top:3%}
-.contact-icon,.realisation, .container, .bouton-devis4,.form-container{display:none}
+.contact-icon,.realisation, .container, .bouton-devis4{display:none}
 
 /*  Small device */
 @media screen and (max-width:767.98px) {
@@ -164,5 +164,5 @@ p{color:#01002c;font-size:19px;margin-left:5%;margin-right:5%;text-align:center;
   .reseau-contact{text-align:center;margin-bottom:13%}
   .reseau-contact a{font-size:13px;color:#fff}
   .reseau-contact ion-icon{font-size:16px}
-  .form-container,.realisation-pc,.container-index,.container-index2{display:none}
+  .realisation-pc,.container-index,.container-index2{display:none}
 }
