@@ -143,7 +143,35 @@
             Contactez-nous dès maintenant pour bénéficier de nos services professionnels et efficaces.
         </p>
     </div>
-    <a class="bouton-devis3" href="tel:0658444271" title="urgence-assainissement">APPELEZ - NOUS</a>
+    <h2>CONTACTEZ - NOUS</h2>
+    <div class="form-container">
+        <div class="image-container">
+            <img src="logo.webp" alt="Logo-Assainissement">
+        </div>
+        <h2>(pas de spam)</h2>
+        <form action="traitement.php" method="post" onsubmit="return validateForm()">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="nom" required>
+            <label for="tel">Téléphone :</label>
+            <input type="tel" id="tel" name="telephone" required>
+            <label for="services">Prestations :</label>
+            <select id="services" name="services" required>
+                <option value="BAC A GRAISSE">BAC À GRAISSE</option>
+                <option value="CONTRAT D'ENTRETIEN">CONTRAT D'ENTRETIEN</option>
+                <option value="CURAGE">CURAGE</option>
+                <option value="DEGORGEMENT">DÉGORGEMENT</option>
+                <option value="FOSSE SEPTIQUE">FOSSE SEPTIQUE</option>
+                <option value="INSPECTION CAMERA">INSPECTION CAMÉRA</option>
+                <option value="POMPAGE">POMPAGE</option>
+                <option value="POMPE DE RELEVAGE">POMPE DE RELEVAGE</option>
+                <option value="REPARATION DE RESEAUX">RÉPARATION DE RÉSEAUX</option>
+                <option value="URGENCE">URGENCE</option>
+            </select>
+            <label for="comments">Commentaires :</label>
+            <textarea id="comments" name="commentaires" rows="4" required></textarea>
+            <button type="submit">ENVOYER</button>
+        </form>
+    </div>
     <div id="contact">
         <h5>HORAIRES</h5>
         <p>Lundi : 06h - 00h30 <br>
