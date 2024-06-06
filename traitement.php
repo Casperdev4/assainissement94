@@ -2,10 +2,20 @@
 
 header('Content-Type: text/html; charset=UTF-8');
 
+function contains_links($text) {
+    $linkPattern = "/https?:\/\/[^\s]+|<a\s+href\s*=\s*['\"]?[^\s>]+['\"]?/i";
+    return preg_match($linkPattern, $text);
+}
+
 $nom = htmlspecialchars($_POST['nom'], ENT_QUOTES, 'UTF-8');
 $telephone = htmlspecialchars($_POST['telephone'], ENT_QUOTES, 'UTF-8');
 $services = htmlspecialchars($_POST['services'], ENT_QUOTES, 'UTF-8');
 $commentaires = htmlspecialchars($_POST['commentaires'], ENT_QUOTES, 'UTF-8');
+
+if (contains_links($commentaires)) {
+    echo "Les liens ne sont pas autorisés.";
+    exit();
+}
 
 $message = "Nom : $nom \n";
 $message .= "Téléphone : $telephone \n";
@@ -23,19 +33,19 @@ require 'PHPMailer/src/SMTP.php';
 $mail = new PHPMailer(true);
 
 try {
-    $mail->isSMTP();                                  
-    $mail->Host       = 'smtp.ionos.fr';       
-    $mail->SMTPAuth   = true;             
-    $mail->Username   = 'contact@webprime.fr'; 
-    $mail->Password   = 'Allamalyjass912!';   
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;  
-    $mail->Port       = 465;                      
+    $mail->isSMTP();
+    $mail->Host       = 'smtp.ionos.fr';
+    $mail->SMTPAuth   = true;
+    $mail->Username   = 'contact@webprime.fr';
+    $mail->Password   = 'Allamalyjass912!';
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+    $mail->Port       = 465;
 
     $mail->setFrom('contact@webprime.fr', 'Assainissement 94');
     $mail->addAddress('contact.aquaserv@gmail.com');
     $mail->addAddress('contact@webprime.fr');
     $mail->CharSet = 'UTF-8';
-    $mail->isHTML(true);     
+    $mail->isHTML(true);
     $mail->Subject = 'Formulaire 94';
     $mail->Body    = nl2br($message);
     $mail->AltBody = $message;
