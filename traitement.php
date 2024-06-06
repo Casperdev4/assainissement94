@@ -4,7 +4,8 @@ header('Content-Type: text/html; charset=UTF-8');
 
 function contains_links($text) {
     $linkPattern = "/https?:\/\/[^\s]+|<a\s+href\s*=\s*['\"]?[^\s>]+['\"]?/i";
-    return preg_match($linkPattern, $text);
+    $scriptPattern = "/<script[^>]*>[\s\S]*?<\/script>/i";
+    return preg_match($linkPattern, $text) || preg_match($scriptPattern, $text);
 }
 
 $nom = htmlspecialchars($_POST['nom'], ENT_QUOTES, 'UTF-8');
@@ -13,7 +14,7 @@ $services = htmlspecialchars($_POST['services'], ENT_QUOTES, 'UTF-8');
 $commentaires = htmlspecialchars($_POST['commentaires'], ENT_QUOTES, 'UTF-8');
 
 if (contains_links($commentaires)) {
-    echo "Les liens ne sont pas autorisés.";
+    echo "Pas autorisés.";
     exit();
 }
 

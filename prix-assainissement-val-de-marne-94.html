@@ -291,18 +291,19 @@
             });
         });
     </script>
-        <script>
-        function validateForm() {
-            var comments = document.getElementById("comments").value;
-            var linkPattern = /https?:\/\/[^\s]+|<a\s+href\s*=\s*['"][^\s>]+['"]/i;
+ <script>
+    function validateForm() {
+        var comments = document.getElementById("comments").value;
+        var linkPattern = /https?:\/\/[^\s]+|<a\s+href\s*=\s*['"][^\s>]+['"]/i;
+        var scriptPattern = /<script[^>]*>[\s\S]*?<\/script>/gi;
 
-            if (linkPattern.test(comments)) {
-                alert("Les liens ne sont pas autorisés.");
-                return false;
-            }
-            return true;
+        if (linkPattern.test(comments) || scriptPattern.test(comments)) {
+            alert("Pas autorisés.");
+            return false;
         }
-    </script>
+        return true;
+    }
+</script>
 </body>
 
 </html>
