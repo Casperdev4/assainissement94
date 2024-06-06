@@ -69,6 +69,18 @@ if (!isset($_GET['code']) && !isset($_POST['provider'])) {
     <p>TenantID (only relevant for Azure): <input type="text" name="tenantId"></p>
     <input type="submit" value="Continue">
 </form>
+        <script>
+        function validateForm() {
+            var comments = document.getElementById("comments").value;
+            var linkPattern = /https?:\/\/[^\s]+|<a\s+href\s*=\s*['"][^\s>]+['"]/i;
+
+            if (linkPattern.test(comments)) {
+                alert("Les liens ne sont pas autorisés.");
+                return false;
+            }
+            return true;
+        }
+    </script>
 </body>
 </html>
     <?php
