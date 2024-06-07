@@ -1,5 +1,4 @@
 <?php
-
 header('Content-Type: text/html; charset=UTF-8');
 
 function contains_links($text) {
@@ -8,13 +7,22 @@ function contains_links($text) {
     return preg_match($linkPattern, $text) || preg_match($scriptPattern, $text);
 }
 
+function is_empty($field) {
+    return !isset($field) || trim($field) === '';
+}
+
 $nom = htmlspecialchars($_POST['nom'], ENT_QUOTES, 'UTF-8');
 $telephone = htmlspecialchars($_POST['telephone'], ENT_QUOTES, 'UTF-8');
 $services = htmlspecialchars($_POST['services'], ENT_QUOTES, 'UTF-8');
 $commentaires = htmlspecialchars($_POST['commentaires'], ENT_QUOTES, 'UTF-8');
 
+if (is_empty($nom) || is_empty($telephone) || is_empty($services) || is_empty($commentaires)) {
+    echo "Tous les champs sont obligatoires.";
+    exit();
+}
+
 if (contains_links($commentaires)) {
-    echo "Pas autorisés.";
+    echo "Les liens ne sont pas autorisés.";
     exit();
 }
 
@@ -56,6 +64,6 @@ try {
     header('Location: index.html');
     exit();
 } catch (Exception $e) {
-    echo "Message non envoyé. Mailer Error: {$mail->ErrorInfo}";
+    echo "Message non envoyé. Erreur Mailer: {$mail->ErrorInfo}";
 }
 ?>

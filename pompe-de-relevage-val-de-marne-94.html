@@ -313,19 +313,25 @@
             });
         });
     </script>
- <script>
-    function validateForm() {
-        var comments = document.getElementById("comments").value;
-        var linkPattern = /https?:\/\/[^\s]+|<a\s+href\s*=\s*['"][^\s>]+['"]/i;
-        var scriptPattern = /<script[^>]*>[\s\S]*?<\/script>/gi;
-
-        if (linkPattern.test(comments) || scriptPattern.test(comments)) {
-            alert("Pas autorisés.");
-            return false;
+    <script>
+        function validateForm() {
+            var name = document.getElementById("name").value.trim();
+            var tel = document.getElementById("tel").value.trim();
+            var services = document.getElementById("services").value.trim();
+            var comments = document.getElementById("comments").value.trim();
+            if (name === "" || tel === "" || services === "" || comments === "") {
+                alert("Tous les champs sont obligatoires.");
+                return false;
+            }
+            var linkPattern = /https?:\/\/[^\s]+|<a\s+href\s*=\s*['"][^\s>]+['"]/i;
+            var scriptPattern = /<script[^>]*>[\s\S]*?<\/script>/gi;
+            if (linkPattern.test(comments) || scriptPattern.test(comments)) {
+                alert("Pas autorisés.");
+                return false;
+            }
+            return true;
         }
-        return true;
-    }
-</script>
+    </script>
 </body>
 
 </html>
