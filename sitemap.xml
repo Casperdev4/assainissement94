@@ -249,6 +249,9 @@
         <geo:lat>48.7993</geo:lat>
         <geo:long>2.4140</geo:long>
     </geo:geo>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Alfortville</geo:placename>
+    <geo:position>48.7993;2.4140</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-cachan.html</loc>
@@ -298,6 +301,9 @@
         <geo:lat>48.7914</geo:lat>
         <geo:long>2.3315</geo:long>
     </geo:geo>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Cachan</geo:placename>
+    <geo:position>48.7914;2.3315</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-champigny-sur-marne.html</loc>
@@ -347,6 +353,9 @@
         <geo:lat>48.8195</geo:lat>
         <geo:long>2.5101</geo:long>
     </geo:geo>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Champigny-sur-Marne</geo:placename>
+    <geo:position>48.8195;2.5101</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-charenton-le-pont.html</loc>
@@ -396,6 +405,9 @@
         <geo:lat>48.8265</geo:lat>
         <geo:long>2.4068</geo:long>
     </geo:geo>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Charenton-le-Pont</geo:placename>
+    <geo:position>48.8265;2.4068</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-choisy-le-roi.html</loc>
@@ -445,6 +457,9 @@
         <geo:lat>48.7657</geo:lat>
         <geo:long>2.4094</geo:long>
     </geo:geo>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Choisy-le-Roi</geo:placename>
+    <geo:position>48.7657;2.4094</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-creteil.html</loc>
@@ -494,6 +509,9 @@
         <geo:lat>48.7794</geo:lat>
         <geo:long>2.4544</geo:long>
     </geo:geo>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Créteil</geo:placename>
+    <geo:position>48.7794;2.4544</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-fontenay-sous-bois.html</loc>
@@ -543,6 +561,9 @@
         <geo:lat>48.8534</geo:lat>
         <geo:long>2.4785</geo:long>
     </geo:geo>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Fontenay-sous-Bois</geo:placename>
+    <geo:position>48.8534;2.4785</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-ivry-sur-seine.html</loc>
@@ -592,6 +613,9 @@
         <geo:lat>48.8146</geo:lat>
         <geo:long>2.3848</geo:long>
     </geo:geo>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Ivry-sur-Seine</geo:placename>
+    <geo:position>48.8146;2.3848</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-lhay-les-roses.html</loc>
@@ -641,6 +665,9 @@
         <geo:lat>48.7809</geo:lat>
         <geo:long>2.3346</geo:long>
     </geo:geo>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>L'Haÿ-les-Roses</geo:placename>
+    <geo:position>48.7809;2.3346</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-maisons-alfort-.html</loc>
@@ -690,6 +717,9 @@
         <geo:lat>48.8061</geo:lat>
         <geo:long>2.4277</geo:long>
     </geo:geo>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Maisons-Alfort</geo:placename>
+    <geo:position>48.8061;2.4277</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-nogent-sur-marne.html</loc>
@@ -739,6 +769,9 @@
         <geo:lat>48.8366</geo:lat>
         <geo:long>2.4830</geo:long>
     </geo:geo>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Nogent-sur-Marne</geo:placename>
+    <geo:position>48.8366;2.4830</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-perreux-sur-marne.html</loc>
@@ -788,6 +821,9 @@
         <geo:lat>48.8391</geo:lat>
         <geo:long>2.5063</geo:long>
     </geo:geo>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Le Perreux-sur-Marne</geo:placename>
+    <geo:position>48.8391;2.5063</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-saint-maur-des-fosses.html</loc>
@@ -837,6 +873,9 @@
         <geo:lat>48.7983</geo:lat>
         <geo:long>2.4894</geo:long>
     </geo:geo>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Saint-Maur-des-Fossés</geo:placename>
+    <geo:position>48.7983;2.4894</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-sucy-en-brie.html</loc>
@@ -886,6 +925,9 @@
         <geo:lat>48.7737</geo:lat>
         <geo:long>2.5294</geo:long>
     </geo:geo>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Sucy-en-Brie</geo:placename>
+    <geo:position>48.7737;2.5294</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-thiais.html</loc>
@@ -935,6 +977,9 @@
         <geo:lat>48.7659</geo:lat>
         <geo:long>2.3911</geo:long>
     </geo:geo>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Thiais</geo:placename>
+    <geo:position>48.7659;2.3911</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-villejuif.html</loc>
@@ -984,6 +1029,9 @@
         <geo:lat>48.7915</geo:lat>
         <geo:long>2.3637</geo:long>
     </geo:geo>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Villejuif</geo:placename>
+    <geo:position>48.7915;2.3637</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-villeuve-saint-georges.html</loc>
@@ -1033,6 +1081,9 @@
         <geo:lat>48.7300</geo:lat>
         <geo:long>2.4492</geo:long>
     </geo:geo>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Villeneuve-Saint-Georges</geo:placename>
+    <geo:position>48.7300;2.4492</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-vincennes.html</loc>
@@ -1082,6 +1133,9 @@
         <geo:lat>48.8489</geo:lat>
         <geo:long>2.4330</geo:long>
     </geo:geo>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Vincennes</geo:placename>
+    <geo:position>48.8489;2.4330</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-vitry-sur-seine.html</loc>
@@ -1131,6 +1185,9 @@
         <geo:lat>48.7876</geo:lat>
         <geo:long>2.3931</geo:long>
     </geo:geo>
+    <geo:region>Ile-de-France</geo:region>
+    <geo:placename>Vitry-sur-Seine</geo:placename>
+    <geo:position>48.7876;2.3931</geo:position>
 </url>
 
 </urlset>
