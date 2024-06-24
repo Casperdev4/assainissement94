@@ -53,8 +53,17 @@
         <image:caption>Découvrez notre couverture étendue à Paris avec des services d'assainissement fiables et de qualité.</image:caption>
         <image:title>assainissement 94</image:title>
     </image:image>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Val-de-Marne (94)</geo:placename>
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Val-de-Marne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>2.4053</geo:west>
+                <geo:east>2.6124</geo:east>
+                <geo:north>48.8608</geo:north>
+                <geo:south>48.6780</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement94.fr/assainissement-val-de-marne-94.html</loc>
@@ -133,8 +142,17 @@
         <image:caption>Découvrez nos services de maintenance de bacs à graisse.</image:caption>
         <image:title>bacs a graisse</image:title>
     </image:image>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Val-de-Marne (94)</geo:placename>
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Val-de-Marne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>2.4053</geo:west>
+                <geo:east>2.6124</geo:east>
+                <geo:north>48.8608</geo:north>
+                <geo:south>48.6780</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement94.fr/debouchage-canalisation-val-de-marne-94.html</loc>
@@ -143,8 +161,17 @@
         <image:caption>Découvrez nos solutions professionnelles de débouchage de canalisations.</image:caption>
         <image:title>Debouchage canalisation Val-de-Marne 94</image:title>
     </image:image>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Val-de-Marne (94)</geo:placename>
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Val-de-Marne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>2.4053</geo:west>
+                <geo:east>2.6124</geo:east>
+                <geo:north>48.8608</geo:north>
+                <geo:south>48.6780</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement94.fr/curage-canalisation-val-de-marne-94.html</loc>
@@ -153,8 +180,17 @@
         <image:caption>Découvrez notre expertise en nettoyage de canalisations pour maintenir un environnement propre et sain.</image:caption>
         <image:title>Nettoyage canalisation Val-de-Marne 94</image:title>
     </image:image>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Val-de-Marne (94)</geo:placename>
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Val-de-Marne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>2.4053</geo:west>
+                <geo:east>2.6124</geo:east>
+                <geo:north>48.8608</geo:north>
+                <geo:south>48.6780</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement94.fr/camera-canalisation-val-de-marne-94.html</loc>
@@ -163,8 +199,17 @@
         <image:caption>Explorez nos services d'inspection de caméra pour canalisation.</image:caption>
         <image:title>Camera canalisation Val-de-Marne 94</image:title>
     </image:image>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Val-de-Marne (94)</geo:placename>
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Val-de-Marne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>2.4053</geo:west>
+                <geo:east>2.6124</geo:east>
+                <geo:north>48.8608</geo:north>
+                <geo:south>48.6780</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement94.fr/vidange-fosse-septique-val-de-marne-94.html</loc>
@@ -173,8 +218,17 @@
         <image:caption>Découvrez nos services de pompage des eaux usées, de vidange de bacs à graisse et des liquides.</image:caption>
         <image:title>vidange fosse septique et vidange bacs à graisse Val-de-Marne 94</image:title>
     </image:image>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Val-de-Marne (94)</geo:placename>
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Val-de-Marne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>2.4053</geo:west>
+                <geo:east>2.6124</geo:east>
+                <geo:north>48.8608</geo:north>
+                <geo:south>48.6780</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement94.fr/pompe-de-relevage-val-de-marne-94.html</loc>
@@ -183,8 +237,17 @@
         <image:caption>Découvrez notre expertise en installation et maintenance de pompes de relevage.</image:caption>
         <image:title>Pompe de relevage Val-de-Marne 94</image:title>
     </image:image>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Val-de-Marne (94)</geo:placename>
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Val-de-Marne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>2.4053</geo:west>
+                <geo:east>2.6124</geo:east>
+                <geo:north>48.8608</geo:north>
+                <geo:south>48.6780</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement94.fr/urgence-assainissement-val-de-marne-94.html</loc>
@@ -193,13 +256,31 @@
         <image:caption>Découvrez nos services d'urgence plomberie et assainissement.</image:caption>
         <image:title>urgence assainissement Val-de-Marne 94</image:title>
     </image:image>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Val-de-Marne (94)</geo:placename>
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Val-de-Marne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>2.4053</geo:west>
+                <geo:east>2.6124</geo:east>
+                <geo:north>48.8608</geo:north>
+                <geo:south>48.6780</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement94.fr/prix-assainissement-val-de-marne-94.html</loc>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Val-de-Marne (94)</geo:placename>
+        <geo:geo>
+            <geo:format>kml</geo:format>
+            <geo:region>ile-de-france</geo:region>
+            <geo:placename>Val-de-Marne</geo:placename>
+            <geo:BoundingBox>
+                <geo:west>2.4053</geo:west>
+                <geo:east>2.6124</geo:east>
+                <geo:north>48.8608</geo:north>
+                <geo:south>48.6780</geo:south>
+            </geo:BoundingBox>
+        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-alfortville.html</loc>
