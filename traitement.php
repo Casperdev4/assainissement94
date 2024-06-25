@@ -1,14 +1,18 @@
 <?php
 header('Content-Type: text/html; charset=UTF-8');
 
-function contains_links($text) {
-    $linkPattern = "/https?:\/\/[^\s]+|<a\s+href\s*=\s*['\"]?[^\s>]+['\"]?/i";
-    $scriptPattern = "/<script[^>]*>[\s\S]*?<\/script>/i";
-    return preg_match($linkPattern, $text) || preg_match($scriptPattern, $text);
+function contient_liens($texte) {
+    $patternLien = "/https?:\/\/[^\s]+|<a\s+href\s*=\s*['\"]?[^\s>]+['\"]?/i";
+    $patternScript = "/<script[^>]*>[\s\S]*?<\/script>/i";
+    return preg_match($patternLien, $texte) || preg_match($patternScript, $texte);
 }
 
-function is_empty($field) {
-    return !isset($field) || trim($field) === '';
+function est_vide($champ) {
+    return !isset($champ) || trim($champ) === '';
+}
+
+function contient_cyrillique($texte) {
+    return preg_match("/[\p{Cyrillic}]/u", $texte);
 }
 
 $nom = htmlspecialchars($_POST['nom'], ENT_QUOTES, 'UTF-8');
@@ -16,13 +20,13 @@ $telephone = htmlspecialchars($_POST['telephone'], ENT_QUOTES, 'UTF-8');
 $services = htmlspecialchars($_POST['services'], ENT_QUOTES, 'UTF-8');
 $commentaires = htmlspecialchars($_POST['commentaires'], ENT_QUOTES, 'UTF-8');
 
-if (is_empty($nom) || is_empty($telephone) || is_empty($services) || is_empty($commentaires)) {
+if (est_vide($nom) || est_vide($telephone) || est_vide($services) || est_vide($commentaires)) {
     echo "Tous les champs sont obligatoires.";
     exit();
 }
 
-if (contains_links($commentaires)) {
-    echo "Les liens ne sont pas autorisés.";
+if (contient_liens($commentaires) || contient_cyrillique($commentaires)) {
+    echo "Pas autorisés.";
     exit();
 }
 
