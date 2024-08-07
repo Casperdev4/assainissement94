@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:geo="http://www.google.com/geo/schemas/sitemap/1.0">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
 <url>
 <loc>https://assainissement94.fr</loc>
@@ -53,11 +53,6 @@
         <image:caption>Découvrez notre couverture étendue à Paris avec des services d'assainissement fiables et de qualité.</image:caption>
         <image:title>assainissement 94</image:title>
     </image:image>
-        <geo:geo>
-            <geo:format>kml</geo:format>
-            <geo:region>ile-de-france</geo:region>
-            <geo:placename>Val-de-Marne</geo:placename>
-        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement94.fr/assainissement-val-de-marne-94.html</loc>
@@ -136,11 +131,6 @@
         <image:caption>Découvrez nos services de maintenance de bacs à graisse.</image:caption>
         <image:title>bacs a graisse</image:title>
     </image:image>
-        <geo:geo>
-            <geo:format>kml</geo:format>
-            <geo:region>ile-de-france</geo:region>
-            <geo:placename>Val-de-Marne</geo:placename>
-        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement94.fr/debouchage-canalisation-val-de-marne-94.html</loc>
@@ -149,11 +139,6 @@
         <image:caption>Découvrez nos solutions professionnelles de débouchage de canalisations.</image:caption>
         <image:title>Debouchage canalisation Val-de-Marne 94</image:title>
     </image:image>
-        <geo:geo>
-            <geo:format>kml</geo:format>
-            <geo:region>ile-de-france</geo:region>
-            <geo:placename>Val-de-Marne</geo:placename>
-        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement94.fr/curage-canalisation-val-de-marne-94.html</loc>
@@ -162,11 +147,6 @@
         <image:caption>Découvrez notre expertise en nettoyage de canalisations pour maintenir un environnement propre et sain.</image:caption>
         <image:title>Nettoyage canalisation Val-de-Marne 94</image:title>
     </image:image>
-        <geo:geo>
-            <geo:format>kml</geo:format>
-            <geo:region>ile-de-france</geo:region>
-            <geo:placename>Val-de-Marne</geo:placename>
-        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement94.fr/camera-canalisation-val-de-marne-94.html</loc>
@@ -175,11 +155,6 @@
         <image:caption>Explorez nos services d'inspection de caméra pour canalisation.</image:caption>
         <image:title>Camera canalisation Val-de-Marne 94</image:title>
     </image:image>
-        <geo:geo>
-            <geo:format>kml</geo:format>
-            <geo:region>ile-de-france</geo:region>
-            <geo:placename>Val-de-Marne</geo:placename>
-        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement94.fr/vidange-fosse-septique-val-de-marne-94.html</loc>
@@ -188,11 +163,6 @@
         <image:caption>Découvrez nos services de pompage des eaux usées, de vidange de bacs à graisse et des liquides.</image:caption>
         <image:title>vidange fosse septique et vidange bacs à graisse Val-de-Marne 94</image:title>
     </image:image>
-        <geo:geo>
-            <geo:format>kml</geo:format>
-            <geo:region>ile-de-france</geo:region>
-            <geo:placename>Val-de-Marne</geo:placename>
-        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement94.fr/pompe-de-relevage-val-de-marne-94.html</loc>
@@ -201,11 +171,6 @@
         <image:caption>Découvrez notre expertise en installation et maintenance de pompes de relevage.</image:caption>
         <image:title>Pompe de relevage Val-de-Marne 94</image:title>
     </image:image>
-        <geo:geo>
-            <geo:format>kml</geo:format>
-            <geo:region>ile-de-france</geo:region>
-            <geo:placename>Val-de-Marne</geo:placename>
-        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement94.fr/urgence-assainissement-val-de-marne-94.html</loc>
@@ -214,19 +179,10 @@
         <image:caption>Découvrez nos services d'urgence plomberie et assainissement.</image:caption>
         <image:title>urgence assainissement Val-de-Marne 94</image:title>
     </image:image>
-        <geo:geo>
-            <geo:format>kml</geo:format>
-            <geo:region>ile-de-france</geo:region>
-            <geo:placename>Val-de-Marne</geo:placename>
-        </geo:geo>
 </url>
 <url>
 <loc>https://assainissement94.fr/prix-assainissement-val-de-marne-94.html</loc>
-        <geo:geo>
-            <geo:format>kml</geo:format>
-            <geo:region>ile-de-france</geo:region>
-            <geo:placename>Val-de-Marne</geo:placename>
-        </geo:geo>
+
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-alfortville.html</loc>
@@ -270,15 +226,6 @@
         <image:caption>Découvrez nos services d'urgence plomberie et d'urgence assainissement.</image:caption>
         <image:title>urgence assainissement Val-de-Marne 94</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Alfortville</geo:placename>
-        <geo:lat>48.7993</geo:lat>
-        <geo:long>2.4140</geo:long>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Alfortville</geo:placename>
-    <geo:position>48.7993;2.4140</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-cachan.html</loc>
@@ -322,15 +269,6 @@
         <image:caption>Découvrez nos services d'urgence plomberie et d'urgence assainissement.</image:caption>
         <image:title>urgence assainissement Val-de-Marne 94</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Cachan</geo:placename>
-        <geo:lat>48.7914</geo:lat>
-        <geo:long>2.3315</geo:long>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Cachan</geo:placename>
-    <geo:position>48.7914;2.3315</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-champigny-sur-marne.html</loc>
@@ -374,15 +312,6 @@
         <image:caption>Découvrez nos services d'urgence plomberie et d'urgence assainissement.</image:caption>
         <image:title>urgence assainissement Val-de-Marne 94</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Champigny-sur-Marne</geo:placename>
-        <geo:lat>48.8195</geo:lat>
-        <geo:long>2.5101</geo:long>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Champigny-sur-Marne</geo:placename>
-    <geo:position>48.8195;2.5101</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-charenton-le-pont.html</loc>
@@ -426,15 +355,6 @@
         <image:caption>Découvrez nos services d'urgence plomberie et d'urgence assainissement.</image:caption>
         <image:title>urgence assainissement Val-de-Marne 94</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Charenton-le-Pont</geo:placename>
-        <geo:lat>48.8265</geo:lat>
-        <geo:long>2.4068</geo:long>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Charenton-le-Pont</geo:placename>
-    <geo:position>48.8265;2.4068</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-choisy-le-roi.html</loc>
@@ -478,15 +398,6 @@
         <image:caption>Découvrez nos services d'urgence plomberie et d'urgence assainissement.</image:caption>
         <image:title>urgence assainissement Val-de-Marne 94</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Choisy-le-Roi</geo:placename>
-        <geo:lat>48.7657</geo:lat>
-        <geo:long>2.4094</geo:long>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Choisy-le-Roi</geo:placename>
-    <geo:position>48.7657;2.4094</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-creteil.html</loc>
@@ -530,15 +441,6 @@
         <image:caption>Découvrez nos services d'urgence plomberie et d'urgence assainissement.</image:caption>
         <image:title>urgence assainissement Val-de-Marne 94</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Créteil</geo:placename>
-        <geo:lat>48.7794</geo:lat>
-        <geo:long>2.4544</geo:long>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Créteil</geo:placename>
-    <geo:position>48.7794;2.4544</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-fontenay-sous-bois.html</loc>
@@ -582,15 +484,6 @@
         <image:caption>Découvrez nos services d'urgence plomberie et d'urgence assainissement.</image:caption>
         <image:title>urgence assainissement Val-de-Marne 94</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Fontenay-sous-Bois</geo:placename>
-        <geo:lat>48.8534</geo:lat>
-        <geo:long>2.4785</geo:long>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Fontenay-sous-Bois</geo:placename>
-    <geo:position>48.8534;2.4785</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-ivry-sur-seine.html</loc>
@@ -634,15 +527,6 @@
         <image:caption>Découvrez nos services d'urgence plomberie et d'urgence assainissement.</image:caption>
         <image:title>urgence assainissement Val-de-Marne 94</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Ivry-sur-Seine</geo:placename>
-        <geo:lat>48.8146</geo:lat>
-        <geo:long>2.3848</geo:long>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Ivry-sur-Seine</geo:placename>
-    <geo:position>48.8146;2.3848</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-lhay-les-roses.html</loc>
@@ -686,15 +570,6 @@
         <image:caption>Découvrez nos services d'urgence plomberie et d'urgence assainissement.</image:caption>
         <image:title>urgence assainissement Val-de-Marne 94</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>L'Haÿ-les-Roses</geo:placename>
-        <geo:lat>48.7809</geo:lat>
-        <geo:long>2.3346</geo:long>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>L'Haÿ-les-Roses</geo:placename>
-    <geo:position>48.7809;2.3346</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-maisons-alfort-.html</loc>
@@ -738,15 +613,6 @@
         <image:caption>Découvrez nos services d'urgence plomberie et d'urgence assainissement.</image:caption>
         <image:title>urgence assainissement Val-de-Marne 94</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Maisons-Alfort</geo:placename>
-        <geo:lat>48.8061</geo:lat>
-        <geo:long>2.4277</geo:long>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Maisons-Alfort</geo:placename>
-    <geo:position>48.8061;2.4277</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-nogent-sur-marne.html</loc>
@@ -790,15 +656,6 @@
         <image:caption>Découvrez nos services d'urgence plomberie et d'urgence assainissement.</image:caption>
         <image:title>urgence assainissement Val-de-Marne 94</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Nogent-sur-Marne</geo:placename>
-        <geo:lat>48.8366</geo:lat>
-        <geo:long>2.4830</geo:long>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Nogent-sur-Marne</geo:placename>
-    <geo:position>48.8366;2.4830</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-perreux-sur-marne.html</loc>
@@ -842,15 +699,6 @@
         <image:caption>Découvrez nos services d'urgence plomberie et d'urgence assainissement.</image:caption>
         <image:title>urgence assainissement Val-de-Marne 94</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Le Perreux-sur-Marne</geo:placename>
-        <geo:lat>48.8391</geo:lat>
-        <geo:long>2.5063</geo:long>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Le Perreux-sur-Marne</geo:placename>
-    <geo:position>48.8391;2.5063</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-saint-maur-des-fosses.html</loc>
@@ -894,15 +742,6 @@
         <image:caption>Découvrez nos services d'urgence plomberie et d'urgence assainissement.</image:caption>
         <image:title>urgence assainissement Val-de-Marne 94</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Saint-Maur-des-Fossés</geo:placename>
-        <geo:lat>48.7983</geo:lat>
-        <geo:long>2.4894</geo:long>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Saint-Maur-des-Fossés</geo:placename>
-    <geo:position>48.7983;2.4894</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-sucy-en-brie.html</loc>
@@ -946,15 +785,6 @@
         <image:caption>Découvrez nos services d'urgence plomberie et d'urgence assainissement.</image:caption>
         <image:title>urgence assainissement Val-de-Marne 94</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Sucy-en-Brie</geo:placename>
-        <geo:lat>48.7737</geo:lat>
-        <geo:long>2.5294</geo:long>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Sucy-en-Brie</geo:placename>
-    <geo:position>48.7737;2.5294</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-thiais.html</loc>
@@ -998,15 +828,6 @@
         <image:caption>Découvrez nos services d'urgence plomberie et d'urgence assainissement.</image:caption>
         <image:title>urgence assainissement Val-de-Marne 94</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Thiais</geo:placename>
-        <geo:lat>48.7659</geo:lat>
-        <geo:long>2.3911</geo:long>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Thiais</geo:placename>
-    <geo:position>48.7659;2.3911</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-villejuif.html</loc>
@@ -1050,15 +871,6 @@
         <image:caption>Découvrez nos services d'urgence plomberie et d'urgence assainissement.</image:caption>
         <image:title>urgence assainissement Val-de-Marne 94</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Villejuif</geo:placename>
-        <geo:lat>48.7915</geo:lat>
-        <geo:long>2.3637</geo:long>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Villejuif</geo:placename>
-    <geo:position>48.7915;2.3637</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-villeuve-saint-georges.html</loc>
@@ -1102,15 +914,6 @@
         <image:caption>Découvrez nos services d'urgence plomberie et d'urgence assainissement.</image:caption>
         <image:title>urgence assainissement Val-de-Marne 94</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Villeneuve-Saint-Georges</geo:placename>
-        <geo:lat>48.7300</geo:lat>
-        <geo:long>2.4492</geo:long>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Villeneuve-Saint-Georges</geo:placename>
-    <geo:position>48.7300;2.4492</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-vincennes.html</loc>
@@ -1154,15 +957,6 @@
         <image:caption>Découvrez nos services d'urgence plomberie et d'urgence assainissement.</image:caption>
         <image:title>urgence assainissement Val-de-Marne 94</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Vincennes</geo:placename>
-        <geo:lat>48.8489</geo:lat>
-        <geo:long>2.4330</geo:long>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Vincennes</geo:placename>
-    <geo:position>48.8489;2.4330</geo:position>
 </url>
 <url>
 <loc>https://assainissement94.fr/societe-assainissement-vitry-sur-seine.html</loc>
@@ -1206,15 +1000,6 @@
         <image:caption>Découvrez nos services d'urgence plomberie et d'urgence assainissement.</image:caption>
         <image:title>urgence assainissement Val-de-Marne 94</image:title>
     </image:image>
-    <geo:geo>
-        <geo:region>Ile-de-France</geo:region>
-        <geo:placename>Vitry-sur-Seine</geo:placename>
-        <geo:lat>48.7876</geo:lat>
-        <geo:long>2.3931</geo:long>
-    </geo:geo>
-    <geo:region>Ile-de-France</geo:region>
-    <geo:placename>Vitry-sur-Seine</geo:placename>
-    <geo:position>48.7876;2.3931</geo:position>
 </url>
 
 </urlset>
