@@ -318,13 +318,18 @@
             var services = document.getElementById("services").value.trim();
             var comments = document.getElementById("comments").value.trim();
             if (name === "" || tel === "" || services === "" || comments === "") {
-                alert("Tous les champs sont obligatoires.");
+                alert("Champs obligatoires.");
+                return false;
+            }
+            var telPattern = /^(06|07|\+336|\+337)/;
+            if (!telPattern.test(tel)) {
+                alert("Veuillez entrer un numéro de téléphone valide.");
                 return false;
             }
             var linkPattern = /https?:\/\/[^\s]+|<a\s+href\s*=\s*['"][^\s>]+['"]/i;
             var scriptPattern = /<script[^>]*>[\s\S]*?<\/script>/gi;
             if (linkPattern.test(comments) || scriptPattern.test(comments)) {
-                alert("Pas autorisés.");
+                alert("Pas autorisé.");
                 return false;
             }
             return true;
