@@ -324,7 +324,7 @@
                 alert("Champs obligatoires.");
                 return false;
             }
-            var telPattern = /^(06|07|\+336|\+337)/;
+            var telPattern = /^(06|07|\+336|\+337)\d{8}$/;
             if (!telPattern.test(tel)) {
                 alert("Veuillez entrer un numéro de téléphone valide.");
                 return false;
