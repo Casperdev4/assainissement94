@@ -157,6 +157,7 @@ p{color:#01002c;font-size:19px;margin-left:5%;margin-right:5%;text-align:center;
   .contact-icon{display:flex;position:fixed;padding:1% 2%;right:4%;bottom:5%;border-radius:20px;background-color:#01002c}
   .contact-icon a{font-size:18px;font-weight:500;color:#fff;text-decoration:none}
   .liens-wp a,.liens-wp h6{font-size:13px;color:#fff;text-align:center;font-weight:300;margin-top:5%}
+  .liens-wp {margin-bottom: -3%;}
   .form-container h2{font-size:18px;margin-top:2%;margin-bottom:6%}
   .form-container{display:flex;flex-direction:column;align-items:center;margin:5% auto;width:90%;padding:20px;box-shadow:0 0 10px rgba(0,0,0,.1);color:#fff}.image-container{background-color:#fff;padding:1%;margin-left:25%;margin-right:25%;margin-bottom:20px;border-radius:20px}.image-container img{width:100%;height:auto;border-radius:20px}.form-container label{display:block;margin-bottom:8px;margin-left:2%;font-size:20px}.form-container input,.form-container select{width:300px;height:35px;padding:8px;margin-bottom:16px;box-sizing:border-box}.form-container button{display:flex;justify-content:center;padding:10px 40px;font-size:18px;margin:3% auto 2%;border:none;border-radius:4px;cursor:pointer}.form-container button:hover{background-color:#ffa929}
   .image-container{background-color:#fff;padding:1%;margin-left:25%;margin-right:25%;margin-bottom:20px;border-radius:20px}
