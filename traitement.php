@@ -15,6 +15,10 @@ function contient_cyrillique($texte) {
     return preg_match("/[\p{Cyrillic}]/u", $texte);
 }
 
+function est_numero_valide($numero) {
+    return preg_match('/^(06|07|\+336|\+337)\d{8}$/', $numero);
+}
+
 $nom = htmlspecialchars($_POST['nom'], ENT_QUOTES, 'UTF-8');
 $telephone = htmlspecialchars($_POST['telephone'], ENT_QUOTES, 'UTF-8');
 $services = htmlspecialchars($_POST['services'], ENT_QUOTES, 'UTF-8');
@@ -22,6 +26,11 @@ $commentaires = htmlspecialchars($_POST['commentaires'], ENT_QUOTES, 'UTF-8');
 
 if (est_vide($nom) || est_vide($telephone) || est_vide($services) || est_vide($commentaires)) {
     echo "Tous les champs sont obligatoires.";
+    exit();
+}
+
+if (!est_numero_valide($telephone)) {
+    echo "Veuillez entrer un numéro de téléphone valide.";
     exit();
 }
 
