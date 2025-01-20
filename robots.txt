@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /traitement.php
+Disallow: /mentions-legales.html
+Sitemap: https://assainissement94.fr/sitemap.xml
