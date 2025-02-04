@@ -59,7 +59,7 @@ try {
     $mail->Host       = 'smtp.ionos.fr';
     $mail->SMTPAuth   = true;
     $mail->Username   = 'contact@webprime.fr';
-    $mail->Password   = 'Allamalyjass912!';
+    $mail->Password   = 'Allamlyly912!';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;
 
