@@ -80,6 +80,18 @@ form{width:90%}
 .reseau-contact ion-icon{font-size:18px}
 .liens-wp a,.liens-wp h6{font-size:13px;color:#fff;text-align:center;font-weight:300;margin-top:3%}
 .contact-icon,.realisation,.container,.bouton-devis4{display:none}
+
+.hp-wrap {
+    position: absolute !important;
+    left: -9999px !important;
+    top: -9999px !important;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
 @media screen and (max-width:767.98px) {
 h1,h2{color:#01002c}
 h4,p{color:#01002c;text-align:center}
