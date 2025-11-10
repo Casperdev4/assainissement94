@@ -375,7 +375,12 @@
                 <label for="name">Nom :</label>
                 <input type="text" id="name" name="nom" required>
                 <label for="tel">Téléphone :</label>
-                <input type="tel" id="tel" name="telephone" required>
+                <input type="tel" id="tel" name="tel"
+                    pattern="^((\+33|0)[1679])[0-9]{8}$"
+                    maxlength="12"
+                    required
+                    placeholder="ex : 0612345678, 0712345678, 0112345678, 0912345678, +33612345678...">
+                <small>Formats acceptés : 01 / 06 / 07 / 09 ou +331 / +336 / +337 / +339</small><br><br>
                 <label for="services">Prestations :</label>
                 <select id="services" name="services" required>
                     <option value="BAC A GRAISSE">BAC À GRAISSE</option>
@@ -517,7 +522,7 @@
                 alert("Champs obligatoires.");
                 return false;
             }
-            var telPattern = /^(06|07|\+336|\+337)\d{8}$/;
+            var telPattern = /^((0[1679])|(\+33[1679]))\d{8}$/;
             if (!telPattern.test(tel)) {
                 alert("Veuillez entrer un numéro de téléphone valide.");
                 return false;
