@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -ExecutionPolicy Bypass -File update-forms-script.ps1)",
+      "Bash(powershell -ExecutionPolicy Bypass -File update-forms.ps1)",
+      "Bash(powershell -ExecutionPolicy Bypass -File fix-accents.ps1:*)",
+      "Bash(powershell -Command \"Get-ChildItem -Filter ''*.html'' | Select-String -Pattern ''formsubmit.co'' | Select-Object -First 1\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File:*)",
+      "Bash(python fix_accents.py:*)",
+      "Bash(node fix-accents.js:*)",
+      "Bash(powershell -Command \"Get-ChildItem -Filter ''*.html'' | Select-String -Pattern ''À|CAMÉRA|RÉPARATION'' | Select-Object -First 1\")",
+      "Bash(powershell:*)",
+      "Bash(ls:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nMise a jour formulaires avec webhook WebPrime\n\n- Remplacement formsubmit.co par webhook WebPrime\n- Ajout champ email sur tous les formulaires\n- Suppression accents dans JavaScript pour compatibilite\n- Honeypot anti-spam avec _gotcha\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}
