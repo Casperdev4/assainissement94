@@ -170,3 +170,20 @@ form{width:95%}
 .reseau-contact ion-icon{font-size:16px}
 .realisation-pc,.container-index,.container-index2{display:none}
 }
+
+/* FAQ Styles */
+.faq-section{margin:5% auto;padding:2% 5%;max-width:900px}
+.faq-section h2{color:#01002c;text-align:center;margin-bottom:3%}
+.faq-item{margin-bottom:15px;border:1px solid #297fb8;border-radius:10px;overflow:hidden}
+.faq-item summary{background-color:#01002c;color:#fff;padding:15px 20px;cursor:pointer;font-weight:600;font-size:18px;list-style:none;display:flex;justify-content:space-between;align-items:center}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:'+';font-size:24px;font-weight:bold;transition:transform 0.3s}
+.faq-item[open] summary::after{content:'-'}
+.faq-item[open] summary{background-color:#297fb8}
+.faq-item .faq-content{padding:20px;background-color:#f9f9f9;color:#01002c;font-size:16px;line-height:1.7}
+.faq-item .faq-content p{text-align:left;margin:0;padding:0}
+@media screen and (max-width:767.98px){
+.faq-section{margin:10% auto;padding:2% 3%}
+.faq-item summary{font-size:16px;padding:12px 15px}
+.faq-item .faq-content{padding:15px;font-size:15px}
+}
