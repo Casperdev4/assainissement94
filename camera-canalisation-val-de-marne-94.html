@@ -275,8 +275,7 @@
                 </div>
                 <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_template" value="table">
-                <input type="hidden" name="_subject" value="Formulaire">
-                <input type="hidden" name="_next" value="https://assainissement94.fr/">                <label for="name">Nom :</label>
+                <input type="hidden" name="_subject" value="Formulaire">                <label for="name">Nom :</label>
                 <input type="text" id="name" name="nom" required>
                 <label for="tel">Telephone :</label>
                 <input type="tel" id="tel" name="tel" pattern="^((\+33|0)[1679])[0-9]{8}$" maxlength="12" required>
@@ -299,6 +298,10 @@
                 <textarea id="comments" name="commentaires" rows="4"></textarea>
                 <button type="submit">ENVOYER</button>
             </form>
+                <div class="contact-thanks" style="display:none; padding: 30px 20px; background-color: #e8f5e9; border: 2px solid #2e7d32; border-radius: 8px; text-align: center; margin-top: 20px;">
+                    <h3 style="color: #2e7d32; margin: 0 0 10px 0;">Merci pour votre demande !</h3>
+                    <p style="margin: 0; color: #1b5e20; font-size: 1.05em;">Nous vous recontactons rapidement.</p>
+                </div>
         </div>
         <section class="faq-section">
             <h2>QUESTIONS FREQUENTES - INSPECTION CAMERA</h2>
@@ -452,18 +455,47 @@
         <script>
     function sendBoth(e) {
         e.preventDefault();
-        var form = document.getElementById('contactForm');
+        var form = e.target;
         var btn = form.querySelector('button[type="submit"]');
         var honeyField = form.querySelector('[name="_honey"]');
         if (honeyField && honeyField.value) return false;
         btn.textContent = 'Envoi en cours...';
         btn.disabled = true;
-        var formData = new FormData(form);
-        fetch('https://webprime.app/webhook/contact/857f6a6d191ea9ed8f4d7159245a653f3043557bd87b70e04ebc34dea33a261a', {
+        var nom = (form.querySelector('[name="nom"]') || {}).value || '';
+        var tel = (form.querySelector('[name="tel"]') || {}).value || '';
+        var email = (form.querySelector('[name="email"]') || {}).value || '';
+        var services = (form.querySelector('[name="services"]') || {}).value || '';
+        var commentaires = (form.querySelector('[name="commentaires"]') || {}).value || '';
+        var webhookData = new FormData();
+        webhookData.append('name', nom);
+        webhookData.append('email', email);
+        webhookData.append('tel', tel);
+        webhookData.append('service', services);
+        webhookData.append('message', 'Telephone : ' + tel + '\nService demande : ' + services + '\n\n' + commentaires);
+        var p1 = fetch('https://webprime.app/webhook/contact/857f6a6d191ea9ed8f4d7159245a653f3043557bd87b70e04ebc34dea33a261a', {
             method: 'POST',
-            body: formData
+            body: webhookData,
+            keepalive: true
         }).catch(function() {});
-        form.submit();
+        var p2 = fetch('https://formsubmit.co/ajax/contact.aquaserv@gmail.com', {
+            method: 'POST',
+            body: new FormData(form),
+            keepalive: true,
+            headers: { 'Accept': 'application/json' }
+        }).catch(function() {});
+        var shown = false;
+        var showThanks = function() {
+            if (shown) return;
+            shown = true;
+            form.style.display = 'none';
+            var thanks = form.nextElementSibling;
+            while (thanks && !(thanks.classList && thanks.classList.contains('contact-thanks'))) {
+                thanks = thanks.nextElementSibling;
+            }
+            if (thanks) thanks.style.display = 'block';
+        };
+        Promise.allSettled([p1, p2]).then(showThanks);
+        setTimeout(showThanks, 3000);
         return false;
     }
     </script>
