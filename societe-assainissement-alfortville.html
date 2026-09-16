@@ -371,14 +371,12 @@
             <div class="image-container">
                 <img src="logo.webp" alt="entreprise débouchage canalisation 94 Val-de-Marne">
             </div>
-            <form id="contactForm" action="https://formsubmit.co/contact.aquaserv@gmail.com" method="POST" onsubmit="return sendBoth(event)">
+            <form id="contactForm" action="https://webprime.app/webhook/contact/857f6a6d191ea9ed8f4d7159245a653f3043557bd87b70e04ebc34dea33a261a" method="POST" onsubmit="return sendBoth(event)">
                 <!-- Honeypot anti-spam -->
                 <div class="hp-wrap">
                     <label for="website">Votre site web :</label>
                     <input type="text" id="website" name="_honey" autocomplete="off">
                 </div>
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_template" value="table">
                 <input type="hidden" name="_subject" value="Formulaire">                <label for="name">Nom :</label>
                 <input type="text" id="name" name="nom" required pattern="[A-Za-zÀ-ÿ' -]{2,60}" title="Indiquez votre nom (lettres uniquement, 2 a 60 caracteres)">
                 <label for="tel">Telephone :</label>
@@ -544,12 +542,6 @@
             body: webhookData,
             keepalive: true
         }).catch(function() {});
-        var p2 = fetch('https://formsubmit.co/ajax/contact.aquaserv@gmail.com', {
-            method: 'POST',
-            body: new FormData(form),
-            keepalive: true,
-            headers: { 'Accept': 'application/json' }
-        }).catch(function() {});
         var shown = false;
         var showThanks = function() {
             if (shown) return;
@@ -561,7 +553,7 @@
             }
             if (thanks) thanks.style.display = 'block';
         };
-        Promise.allSettled([p1, p2]).then(showThanks);
+        Promise.allSettled([p1]).then(showThanks);
         setTimeout(showThanks, 3000);
         return false;
     }
